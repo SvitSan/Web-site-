@@ -1,0 +1,454 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body { 
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    font-size: 16px;
+    
+    
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.h1 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.447);
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right {
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    padding: 10px 20px;
+}
+
+.but-on {
+    background-color: black;
+    color: white;
+    padding: 16px 40px;
+
+}
+
+.main {
+    padding: 50px 60px;
+    height: 80vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.paragab {
+    width: 40%;
+    color: white;
+    padding: 20px;
+  
+}
+
+.hh1 {
+    font-size: 56px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.ceck {
+    margin-top: 24px;
+}
+
+form {
+    width: 30%;
+    padding: 32px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 16px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bolder;
+    display: flex;
+
+}
+
+.name,
+.Email-phone,
+.company-role {
+    
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+input {
+    padding: 24px 16px;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+.ri-checkbox-circle-fill {
+    font-size: 20px;
+    margin: 10px;
+  
+    color: blue;
+}
+.icons1{
+    padding: 4px;
+}
+input::placeholder{
+   
+    font-size: 20px;
+}
+#but {
+    width: 88%;
+    padding: 20px;
+    border-radius: 32px;
+    border: none;
+   background-color: red;
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+}
+#but:hover{
+    background-color: black;
+    color: white;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+}
+.texts {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    
+}
+.heat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-tree{
+    height: 50vh;
+    margin-top: 70px;
+
+    padding: 16px;
+    display: flex;
+    
+    
+}
+.paragap-smal1,
+.paragap-smal2,.paragap-smal3 {
+    width: 30%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.paragap-smal2,.paragap-smal3 {
+    border-left: 1px solid rgba(0, 0, 0, 0.304);
+}
+.img{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+.midle{
+    height: 40vh;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+.midle-text {
+    width: 50%;
+    padding: 50px;
+}
+.nav{
+ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.more-paragrap{
+    width: 32%;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+.big-write{
+    font-size: 47px;
+    font-weight: bolder;
+}
+.lorem{
+    margin-top: 6px;
+    font-weight:lighter;
+    font-size: 18px;
+}
+.buttton{
+    margin-top: 32px;
+    display: flex;
+    gap: 50px;
+}
+.buton1{
+    padding: 16px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.buton2{
+    padding: 16px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    font-size: 16px;;
+    border: 1px solid black;
+}
+.image{
+   
+    display: flex;
+    justify-content: end;
+}
+.nav2 {
+   
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav2-text2{
+    margin-top: 16px;
+    font-size: 32px;
+    
+}
+.nav2-text3{
+    width: 70%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tree-number{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    width: 180px;
+    height: 180px;
+    font-size: 80px;
+    font-weight: bolder;
+    background-color: rgba(255, 0, 0, 0.251);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   ;
+}
+.number1,
+.number2,
+.number3 {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 100%;
+    display: flex;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+}
+.h2-one{
+    margin-top: 50px;
+}
+.nav3{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.all-nav3-text2{
+    
+    width: 75%;
+    height: 70vh;
+    display: flex;
+   
+   
+}
+.nav3-text2{
+    width: 100%;
+    height: 70vh;
+    padding: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   gap: 30px;
+}
+.nav3-text1{
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconn{
+
+    
+    width: 43%;
+    height: 25%;
+    padding:40px 20px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    display: flex;
+    justify-content: center;
+}
+.abc{
+    border-radius: 16px;
+}
+.text4{
+    margin-top: 8px;
+}
+.nav4{
+ 
+    height: 100vh;
+    padding: 90px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    
+}
+
+.nav4-text1{
+   width: 40%;
+   margin: 20px;
+   height: 20vh;
+   padding: 30px 20px;
+    background-color: white;
+    border-radius: 24px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.ppp{
+    font-size: 32px;
+}
+.image-nav4{
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    box-shadow: 0px 0px 2px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.pem{
+    width: 90%;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.h11{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.nav5{
+  
+
+    padding: 100px;
+   
+}
+.nav5-text1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content:space-between;
+}
+.h1-text1{
+    
+    display: flex;
+   
+}
+.but-na{
+    display: flex;
+    align-items: end;
+}
+.nana{
+
+    /* margin-top: 10px; */
+    border-radius: 20px;
+    width: 56px;
+    height: 24px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.nav5-text2{
+    
+    height: 80px;
+    
+    margin-top: 56px;
+    border-top: 1px solid rgba(0, 0, 0, 0.233);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.nav5-text3{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav5-text3-text3{
+    display: flex;
+    gap: 16px;
+}
